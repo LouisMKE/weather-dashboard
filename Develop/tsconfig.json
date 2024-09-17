@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2020", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+
+    /* Modules */
+    "module": "ESNext", /* Specify what module code is generated. */
+    "moduleResolution": "Node", /* Specify how TypeScript looks up a file from a given module specifier. Node.js resolution algorithm. */
+
+    /* JavaScript Support */
+    "allowJs": true, /* Allow JavaScript files to be a part of your program. */
+    "checkJs": true, /* Enable error reporting in type-checked JavaScript files. */
+
+    /* Interop Constraints */
+    "esModuleInterop": true, /* Emit additional JavaScript to ease support for importing CommonJS modules. */
+    "allowSyntheticDefaultImports": true, /* Allow default imports from modules with no default export. */
+    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports. */
+
+    /* Output Directory */
+    "outDir": "./dist", /* Redirect output structure to the 'dist' directory. */
+    "rootDir": "./src", /* Specify the root directory of input files. */
+
+    /* Debugging */
+    "sourceMap": true, /* Create source map files for emitted JavaScript files. */
+
+    /* Type Checking */
+    "strict": true, /* Enable strict type-checking options. */
+    "noUnusedLocals": true, /* Report errors on unused locals. */
+    "noUnusedParameters": true, /* Report errors on unused function parameters. */
+    "noFallthroughCasesInSwitch": true, /* Report errors for fallthrough cases in switch statements. */
+    "exactOptionalPropertyTypes": true, /* Interpret optional property types as written, rather than adding 'undefined'. */
+    "noImplicitReturns": true, /* Enable error reporting for code paths that do not explicitly return in a function. */
+    "noImplicitOverride": true, /* Ensure overriding members in derived classes are marked with an override modifier. */
+    "useUnknownInCatchVariables": true /* Ensure 'unknown' is used for catch clause variables. */
+  },
+  "include": ["src/**/*"], /* Include all files in the 'src' directory. */
+  "exclude": ["node_modules", "dist"] /* Exclude 'node_modules' and the output directory 'dist'. */
+}
